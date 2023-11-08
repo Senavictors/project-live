@@ -10,7 +10,7 @@ const spiders = [
     id: 2,
     nome: 'Gwen Stacy',
     terra: 8,
-    habilidades: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat perferendis minus quod, impedit eum libero, consequatur, nulla reiciendis itaque repellendus hic! Nihil iure deserunt doloremque voluptate deleniti soluta, quo nisi?',
+    habilidades: 'Força, resistência, reflexos, equilíbrio, agilidade e velocidade sobre-humanas. Escalar paredes (pode aderir a qualquer superfície, como uma aranha)Geração de teias (através dos lançadores de teia) Sentido aranha (sentido precognitivo que a alerta do perigo eminente) Mestre em combate corpo-a-corpo.',
     foto: 'https://i.pinimg.com/736x/a7/77/eb/a777eb12c109c712a2dd42a66fc67e91.jpg'
   },
   {

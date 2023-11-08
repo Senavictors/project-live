@@ -1,4 +1,5 @@
 * {
+  border: ;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,9 +7,12 @@
 
 html {
       --cor-principal: #d23669;
-      --cor-titulo: #000;
+      --cor-titulo: #000000;
       --cor-texto: gray;
       --cor-fundo: #fff;
+      --cor-tema: #e7e7e7;
+      --cor-guide: black;
+      --border-guide: black;
 }
 
 
@@ -17,20 +21,27 @@ html {
   --cor-titulo:  #fff;
   --cor-texto: rgb(252, 4, 4);
   --cor-fundo: #000;
+  --cor-tema: rgb(252, 4, 4);
+  --cor-guide: red;
+  --border-guide: red;
 }
 
 h1 {
-  color: var(--cor-titulo);
+  border: 1px solid var(--border-guide);
+  background: #e7e7e7;
+  padding: 10px 50px;
+  border-radius: 5px;
+  color: var(--cor-guide);
   text-align: center;
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
 button {
-  color: #fff;
-  background-color: #d23669;
+  color: black;
+  background-color: var(--cor-tema);
   padding: 10px;
-  border: none;
+  border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;
   position: fixed;
@@ -60,7 +71,7 @@ img {
   height: 120px;
   width: 170px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid var(--border-guide);
 
 }
 
@@ -71,3 +82,5 @@ section {
 .habilidades {
   color: var(--cor-titulo);
 }
+
+.btn
